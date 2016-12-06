@@ -7,13 +7,16 @@ case ${REV} in
   a02082|a22082)
     echo 'Pi 3 Model B, 1024MB RAM'
     ;;
-  a01040|a01041|a21041)
+  a01040|a01041|a21041|a22042)
     echo 'Pi 2 Model B, 1024MB RAM'
     ;;
   900092|900093)
     echo 'Pi Zero, 512MB RAM'
     ;;
-  0012|0015)
+  0015)
+    echo 'Pi Model A+, 512MB RAM'
+    ;;
+  0012)
     echo 'Pi Model A+, 256MB RAM'
     ;;
   0010|0013)
